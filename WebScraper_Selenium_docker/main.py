@@ -25,7 +25,7 @@ for b in buttons:
         b.click()
         time.sleep(2)
         #pobranie wszystkich elementów typu span
-        spans = driver.find_elements(By.TAG_NAME, 'span')
+        spans = driver.find_elements(By.TAG_NAME, 'li')
 
 #sprawdzenie pobranych elementów span w celu odnalezienia numeru telefonu
 for s in spans:
