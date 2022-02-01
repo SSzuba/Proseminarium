@@ -8,6 +8,7 @@ Projekt WebScrapingu z wykorzystaniem biblioteki BeautifulSoup w języku Python
 
 Projekt WebScrapingu z wykorzystaniem biblioteki Selenium w języku Python, z możliwością użycia Selenium Grid w środowisku Docker
 Uruchomienie pojedyńczej instancji Selenium Chrome za pomocą komendy w terminalu:
+
 docker run -d -p 4444:4444 --shm-size="2g" selenium/standalone-chrome:4.1.1-20220121
 
 <h3><b> Selenium_Grid </b></h3>
